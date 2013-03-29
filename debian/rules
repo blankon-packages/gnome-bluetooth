@@ -9,7 +9,7 @@ include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
 DEB_CONFIGURE_EXTRA_FLAGS := --disable-scrollkeeper		\
 				--disable-desktop-update	\
 				--disable-schemas-install	\
-				--disable-icon-update           \
+				--disable-icon-update		\
 				--enable-introspection
 
 # List any files which are not installed

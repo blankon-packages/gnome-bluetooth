@@ -1,3 +1,28 @@
+gnome-bluetooth (3.8.0-1blankon1) suroboyo; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Sat, 30 Mar 2013 02:12:06 +0700
+
+gnome-bluetooth (3.8.0-1) experimental; urgency=low
+
+  * New upstream release.
+    + debian/control:
+      - Update build dependencies.
+      - The nautilus-sendto plugin is gone, so stop suggesting it.
+    + debian/patches/01_autostart_path.patch:
+      - Removed, no longer needed.
+    + debian/gnome-bluetooth.install:
+      - Stop installing nautilus-sendto files.
+    + debian/patches/01-Revert-lib-Remove-ObexFTP-browsing.patch:
+      - New patch. Add bluetooth_browse_address{,_finish} functions
+        back, as they are part of the ABI and are used by
+        gnome-control-center 3.4. We can remove this patch when the
+        libgnome-bluetooth is bumped, or if we add breaks on
+        gnome-control-center (<< 3.8.0).
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 29 Mar 2013 12:42:16 +0100
+
 gnome-bluetooth (3.6.0-1blankon1) suroboyo; urgency=low
 
   * Upload to suroboyo 

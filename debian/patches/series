@@ -1,2 +1,2 @@
-01_autostart_path.patch
+01-Revert-lib-Remove-ObexFTP-browsing.patch
 02_gettext_macros.patch

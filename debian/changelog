@@ -1,3 +1,30 @@
+gnome-bluetooth (3.10.0-0blankon1) suroboyo; urgency=low
+
+  * New Upstream Release 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 16 Oct 2013 07:04:53 +0700
+
+gnome-bluetooth (3.8.1-2) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Add Breaks for gir1.2-gnomebluetooth-1.0 which changed API without a
+    name change: gnome-bluetooth, gnome-shell.
+
+  [ Jeremy Bicha ]
+  * Update homepage
+
+  [ Michael Biebl ]
+  * Apply uaccess tag for rfkill devices for users of logind.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 01 Jul 2013 10:39:27 +0200
+
+gnome-bluetooth (3.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+    + Don't abort on unknown rfkill switches. Closes: #712774.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 19 Jun 2013 16:54:41 +0200
+
 gnome-bluetooth (3.8.0-1blankon1) suroboyo; urgency=low
 
   * New upstream release.

@@ -1,8 +1,9 @@
 gnome-bluetooth (3.10.0-0blankon1) suroboyo; urgency=low
 
   * New Upstream Release 
+  * Drop 02_gettext_macros.patch
 
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 16 Oct 2013 07:04:53 +0700
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 16 Oct 2013 07:11:53 +0700
 
 gnome-bluetooth (3.8.1-2) unstable; urgency=low
 

@@ -11,8 +11,8 @@ libgnome-bluetooth.so.12 libgnome-bluetooth12 #MINVER#
  bluetooth_agent_set_pincode_func@Base 3.9.3
  bluetooth_agent_setup@Base 3.9.3
  bluetooth_agent_unregister@Base 3.9.3
- bluetooth_browse_address@Base 3.9.3
- bluetooth_browse_address_finish@Base 3.9.3
+#MISSING: 3.10.0-1blankon1# bluetooth_browse_address@Base 3.9.3
+#MISSING: 3.10.0-1blankon1# bluetooth_browse_address_finish@Base 3.9.3
  bluetooth_category_get_type@Base 3.9.3
  bluetooth_chooser_button_available@Base 3.9.3
  bluetooth_chooser_button_get_type@Base 3.9.3

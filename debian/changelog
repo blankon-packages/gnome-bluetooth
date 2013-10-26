@@ -3,6 +3,9 @@ gnome-bluetooth (3.10.0-1blankon1) suroboyo; urgency=low
   [ Mahyuddin Idram Ahmad ]
   * New upstream release
   * Sync from Debian Unreleased gnome-bluetooth 3.9.3-1
+  * debian/libgnome-bluetooth12.symbols disabale symbols not using
+  * debian/libgnome-bluetooth-dev.install:
+    - Disabale usr/share/gtk-doc/html/gnome-bluetooth/*
 
   [ Michael Biebl ]
   * Drop obsolete configure switches.

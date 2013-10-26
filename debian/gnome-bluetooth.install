@@ -1,11 +1,11 @@
-usr/share/help
-usr/share/locale
-usr/share/man/man1
-usr/share/applications
-usr/share/icons
-usr/share/gnome-bluetooth
+debian/61-gnome-bluetooth-rfkill.rules lib/udev/rules.d/
 usr/bin
-usr/lib/gnome-bluetooth/plugins/*.so
 usr/lib/gnome-bluetooth/*.so*
 usr/lib/gnome-bluetooth/*.typelib
-debian/61-gnome-bluetooth-rfkill.rules lib/udev/rules.d/
+usr/lib/gnome-bluetooth/plugins/*.so
+usr/share/applications
+usr/share/gnome-bluetooth
+usr/share/help
+usr/share/icons
+usr/share/locale
+usr/share/man/man1

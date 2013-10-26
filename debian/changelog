@@ -1,9 +1,29 @@
-gnome-bluetooth (3.10.0-0blankon1) suroboyo; urgency=low
+gnome-bluetooth (3.10.0-1blankon1) suroboyo; urgency=low
 
-  * New Upstream Release 
-  * Drop 02_gettext_macros.patch
+  [ Mahyuddin Idram Ahmad ]
+  * New upstream release
+  * Sync from Debian Unreleased gnome-bluetooth 3.9.3-1
 
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 16 Oct 2013 07:11:53 +0700
+  [ Michael Biebl ]
+  * Drop obsolete configure switches.
+
+  [ Andreas Henriksson ]
+  * New upstream development release (3.9.3)
+  * Bump glib build-dependency to >= 2.36
+  * Rename package for new SONAME (11 -> 12).
+  * Update debian/libgnome-bluetooth12.symbols
+  * Replace debian/patches/02_gettext_macros.patch with upstream commit.
+  * gnome-bluetooth was ported to the new BlueZ5 API in the 3.9 series.
+    - bump dependency on bluez to >= 5.5
+  * Bump Standards-Version to 3.9.4
+  * Add build-dependency on autotools-dev to fix outdated config.sub/guess.
+  * Ran wrap-and-sort
+
+  [ Emilio Pozuelo Monfort ]
+  * debian/patches/01-Revert-lib-Remove-ObexFTP-browsing.patch:
+    + Dropped, the soname has changed so we can finally remove this API.
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sat, 26 Oct 2013 19:04:37 +0700
 
 gnome-bluetooth (3.8.1-2) unstable; urgency=low
 

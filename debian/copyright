@@ -18,63 +18,63 @@ Upstream Authors:
 
 Copyright:
 
-    wizard/main.c: GPL (v2 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    wizard/pin.[hc]: GPL (v2 or later) 
-      Copyright: 2009 Bastien Nocera <hadess@hadess.net>
-    
-    applet/test-agentdialog.c: GPL (v2 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    applet/*: GPL (v2 or later) 
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/obex-agent.[hc]: LGPL (v2.1 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/test-agent.c: GPL (v2 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/test-client.c: GPL (v2 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/bluetooth-agent.[ch]: LGPL (v2.1 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/bluetooth-client.[ch]: LGPL (v2.1 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/bluetooth-enums.h: LGPL (v2.1 or later) 
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/bluetooth-chooser-button.[ch]: LGPL (v2 or later)
-      Copyright: 2007 Bastien Nocera <hadess@hadess.net>
-    
-    common/bluetooth-chooser.[ch]: LGPL (v2.1 or later) 
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/test-deviceselection.c: GPL (v2 or later) 
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    common/bluetooth-killswitch.[ch]: GPL (v2 or later) 
-      Copyright: 2006-2009 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    properties/gconf-bridge.[ch]: LGPL (v2 or later)
-      Copyright: 2005 OpenedHand Ltd
-    
-    properties/*: GPL (v2 or later) 
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-    
-    sendto/main.c: GPL (v2 or later) 
+    wizard/main.c: GPL (v2 or later)
       Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
 
-    lib/bling-spinner.c: LGPL (v2 or later) 
+    wizard/pin.[hc]: GPL (v2 or later)
+      Copyright: 2009 Bastien Nocera <hadess@hadess.net>
+
+    applet/test-agentdialog.c: GPL (v2 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    applet/*: GPL (v2 or later)
+      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
+                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/obex-agent.[hc]: LGPL (v2.1 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/test-agent.c: GPL (v2 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/test-client.c: GPL (v2 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/bluetooth-agent.[ch]: LGPL (v2.1 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/bluetooth-client.[ch]: LGPL (v2.1 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/bluetooth-enums.h: LGPL (v2.1 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/bluetooth-chooser-button.[ch]: LGPL (v2 or later)
+      Copyright: 2007 Bastien Nocera <hadess@hadess.net>
+
+    common/bluetooth-chooser.[ch]: LGPL (v2.1 or later)
+      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
+                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/test-deviceselection.c: GPL (v2 or later)
+      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
+                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    common/bluetooth-killswitch.[ch]: GPL (v2 or later)
+      Copyright: 2006-2009 Bastien Nocera <hadess@hadess.net>
+                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    properties/gconf-bridge.[ch]: LGPL (v2 or later)
+      Copyright: 2005 OpenedHand Ltd
+
+    properties/*: GPL (v2 or later)
+      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
+                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    sendto/main.c: GPL (v2 or later)
+      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+
+    lib/bling-spinner.c: LGPL (v2 or later)
       Copyright: 2007 John Stowers, Neil Jagdish Patel
 
     lib/rfkill.h: GPL (v2 or later)

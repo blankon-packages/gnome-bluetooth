@@ -1,8 +1,5 @@
 debian/61-gnome-bluetooth-rfkill.rules lib/udev/rules.d/
 usr/bin
-usr/lib/gnome-bluetooth/*.so*
-usr/lib/gnome-bluetooth/*.typelib
-usr/lib/gnome-bluetooth/plugins/*.so
 usr/share/applications
 usr/share/gnome-bluetooth
 usr/share/help

@@ -1,8 +1,22 @@
-gnome-bluetooth (3.12.0-1blankon1) tambora; urgency=low
+gnome-bluetooth (3.12.0-2blankon1) tambora; urgency=low
 
   * New upstream release
 
- -- Sjoerd Simons <syaimif@localhost>  Sat, 24 May 2014 21:02:34 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Sat, 14 Jun 2014 21:07:02 +0700
+
+gnome-bluetooth (3.12.0-2) experimental; urgency=medium
+
+  [ Sjoerd Simons ]
+  * debian/copyright: Update copyright for the help/
+  * Drop consolekit dependency, gnome-bluetooth doesn't have a direct
+    dependency on any user session tracking anymore.
+
+  [ Laurent Bigonville ]
+  * debian/control.in: Depends against libpam-systemd so the /dev/rfkill
+    permissions are properly set
+  * debian/61-gnome-bluetooth-rfkill.rules: Drop ConsoleKit related rules
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 25 May 2014 23:40:59 +0200
 
 gnome-bluetooth (3.12.0-1) experimental; urgency=low
 

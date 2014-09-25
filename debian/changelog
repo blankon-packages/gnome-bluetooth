@@ -1,3 +1,27 @@
+gnome-bluetooth (3.14.0-1blankon1) tambora; urgency=low
+
+  * New upstream release
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Thu, 25 Sep 2014 09:25:09 +0700
+
+gnome-bluetooth (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 22 Sep 2014 21:05:40 +0200
+
+gnome-bluetooth (3.13.90-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 20 Sep 2014 10:10:01 +0200
+
+gnome-bluetooth (3.13.90-1) experimental; urgency=medium
+
+  * New upstream development release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 05 Sep 2014 15:53:15 -0700
+
 gnome-bluetooth (3.12.0-2blankon1) tambora; urgency=low
 
   * New upstream release

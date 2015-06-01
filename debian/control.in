@@ -40,7 +40,7 @@ Breaks: gnome-phone-manager (<< 0.67),
         network-manager-gnome (<< 0.9.0-3),
         gnome-shell (<< 3.12),
 Conflicts: bluez-gnome
-Architecture: linux-any
+Architecture: any
 Description: GNOME Bluetooth tools
  This package contains tools for managing and manipulating Bluetooth
  devices using the GNOME desktop.
@@ -48,7 +48,7 @@ Description: GNOME Bluetooth tools
 Package: libgnome-bluetooth13
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Architecture: linux-any
+Architecture: any
 Description: GNOME Bluetooth tools - support library
  This package contains tools for managing and manipulating Bluetooth
  devices using the GNOME desktop.
@@ -65,7 +65,7 @@ Depends: gir1.2-gnomebluetooth-1.0 (= ${binary:Version}),
          ${misc:Depends}
 Suggests: pkg-config
 Priority: extra
-Architecture: linux-any
+Architecture: any
 Description: GNOME Bluetooth tools - support library development files
  This package contains tools for managing and manipulating Bluetooth
  devices using the GNOME desktop.
@@ -76,7 +76,7 @@ Description: GNOME Bluetooth tools - support library development files
 
 Package: gir1.2-gnomebluetooth-1.0
 Section: introspection
-Architecture: linux-any
+Architecture: any
 Depends: ${gir:Depends}, ${misc:Depends}, ${shlibs:Depends}
 Breaks: gnome-bluetooth (<< 3.8), gnome-shell (<< 3.4.2-9)
 Description: Introspection data for GnomeBluetooth

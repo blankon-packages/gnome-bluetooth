@@ -37,7 +37,7 @@ Recommends: gnome-control-center, gvfs-backends
 Suggests: gnome-user-share
 Breaks: gnome-shell (<< 3.12),
 Conflicts: bluez-gnome
-Architecture: linux-any
+Architecture: any
 Description: GNOME Bluetooth tools
  This package contains tools for managing and manipulating Bluetooth
  devices using the GNOME desktop.
@@ -63,7 +63,7 @@ Depends: gir1.2-gnomebluetooth-1.0 (= ${binary:Version}),
          ${misc:Depends}
 Suggests: pkg-config
 Priority: extra
-Architecture: linux-any
+Architecture: any
 Description: GNOME Bluetooth tools - support library development files
  This package contains tools for managing and manipulating Bluetooth
  devices using the GNOME desktop.
@@ -74,7 +74,7 @@ Description: GNOME Bluetooth tools - support library development files
 
 Package: gir1.2-gnomebluetooth-1.0
 Section: introspection
-Architecture: linux-any
+Architecture: any
 Depends: ${gir:Depends},
          ${misc:Depends},
          ${shlibs:Depends}

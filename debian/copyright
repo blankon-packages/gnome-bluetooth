@@ -1,213 +1,59 @@
-This package was first debianized by Edd Dumbill <ejad@debian.org>
-on Thu Jun 10 11:14:24 BST 2004.
-The new version of gnome-bluetooth was debianized by Filippo Giunchedi
-<filippo@debian.org> on Sun May 24 17:47:30 CEST 2009
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: GnomeBluetooth
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-bluetooth/
 
-It was originally downloaded from http://usefulinc.com/software/gnome-bluetooth/
-Now gnome-bluetooth is a fork of bluez-gnome and can be found at
-http://live.gnome.org/GnomeBluetooth
+Files: sendto/main.c
+Copyright: 2005-2008  Marcel Holtmann <marcel@holtmann.org>
+           2013  Intel Corporation
+License: GPL-2.0+
 
-Upstream Authors:
+Files: lib/test-*
+Copyright: 2005-2008  Marcel Holtmann <marcel@holtmann.org>
+           2009  Bastien Nocera <hadess@hadess.net>
+License: GPL-2.0+
 
-    Marcel Holtmann <marcel@holtmann.org>
-    Bastien Nocera <hadess@hadess.net>
-    Chris Rivera <crivera@novell.com>
-    Jaap A. Haitsma <jaap@haitsma.org>
-    Antti Kaijanmäki <antti@kaijanmaki.net>
-    Michael Terry <michael.terry@canonical.com>
+Files: lib/pin.h
+       lib/pin.c
+Copyright: 2009  Bastien Nocera <hadess@hadess.net>
+License: GPL-2.0+
 
-Copyright:
+Files: *
+Copyright: 2006-2013  Bastien Nocera <hadess@hadess.net>
+           2010  Giovanni Campagna <scampa.giovanni@gmail.com>
+           2005-2008  Marcel Holtmann <marcel@holtmann.org>
+           2013 Intel Corporation
+License: LGPL-2.1+
 
-    wizard/main.c: GPL (v2 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
+License: GPL-2.0+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-    wizard/pin.[hc]: GPL (v2 or later)
-      Copyright: 2009 Bastien Nocera <hadess@hadess.net>
-
-    applet/test-agentdialog.c: GPL (v2 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    applet/*: GPL (v2 or later)
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/obex-agent.[hc]: LGPL (v2.1 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/test-agent.c: GPL (v2 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/test-client.c: GPL (v2 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/bluetooth-agent.[ch]: LGPL (v2.1 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/bluetooth-client.[ch]: LGPL (v2.1 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/bluetooth-enums.h: LGPL (v2.1 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/bluetooth-chooser-button.[ch]: LGPL (v2 or later)
-      Copyright: 2007 Bastien Nocera <hadess@hadess.net>
-
-    common/bluetooth-chooser.[ch]: LGPL (v2.1 or later)
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/test-deviceselection.c: GPL (v2 or later)
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    common/bluetooth-killswitch.[ch]: GPL (v2 or later)
-      Copyright: 2006-2009 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    properties/gconf-bridge.[ch]: LGPL (v2 or later)
-      Copyright: 2005 OpenedHand Ltd
-
-    properties/*: GPL (v2 or later)
-      Copyright: 2006-2007 Bastien Nocera <hadess@hadess.net>
-                 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    sendto/main.c: GPL (v2 or later)
-      Copyright: 2005-2008 Marcel Holtmann <marcel@holtmann.org>
-
-    lib/bling-spinner.c: LGPL (v2 or later)
-      Copyright: 2007 John Stowers, Neil Jagdish Patel
-
-    lib/rfkill.h: GPL (v2 or later)
-      Copyright: 2006, 2007 Ivo van Doorn, 2007 Dmitry Torokhov,
-                 2009 Johannes Berg <johannes@sipsolutions.net>
-
-    help/{C,cs,el,fi,fr,gl,ro,sl,sv,te,th,pa,zh,zw}/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-
-    help/da/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright: 2011-2013 Flemming Christensen
-
-    help/ko/*: GFDL-NIV (Version 1.1 or later)
-      Copyright:  2009 Baptiste Mille-Mathias
-      Copyright 2011, 2013 Seong-ho, Cho
-
-    help/id/*: GFDL-NIV (Version 1.1 or later)
-      Copyright:  2009 Baptiste Mille-Mathias
-      Copyright 2012, 2013 Andika Triwidada
-
-    help/ca/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright 2011, 2013 David Aguilera
-
-    help/es/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright: 2012 Daniel Mustieles
-      Copyright: 2007-2008 Jorge González
-
-    help/de/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright: 2009-2013 Mario Blättermann
-
-    help/ru/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright: 2010 Leonid Kanter
-      Copyright: 2011 Stanislav Kolotinskiy
-      Copyright: 2011 Yuri Myasoedov
-      Copyright: 2013 Stas Solovey
-
-    help/pt_BR/*: GFDL-NIV (Version 1.1 or later)
-      Copyright: 2009 Baptiste Mille-Mathias
-      Copyright: 2013 Rafael Ferreira
-
-    help/ca/ca.po: GPL version 2 or later
-    Copyright: David Aguilera <david.aguilera.moncusi@gmail.com>, 2011.
-
-    help/cs/cs.po: GPL version 2 or later
-    Copyright: Marek Černocký <marek@manet.cz>, 2009, 2010, 2013.
-
-    help/da/da.po: GPL version 2 or later
-    Copyright: NickyThomassen <nicky.thomassen@gmail.com>, 2011.
-
-    help/da/da.po: GPL version 2 or later
-    Copyright: flemming christensen <fc@stromata.dk>, 2011, 2012, 2013.
-
-    help/de/de.po: GPL version 2 or later
-    Copyright: Mario Blättermann <mario.blaettermann@gmail.com>, 2009, 2010, 2012, 2013.
-
-    help/el/el.po: GPL version 2 or later
-    Copyright: Μάριος Ζηντίλης <m.zindilis@dmajor.org>, 2009.
-    Copyright: Marios Zindilis <m.zindilis@dmajor.org>, 2010.
-
-    help/el/el.po: GPL version 2 or later
-    Copyright: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
-
-    help/es/es.po: GPL version 2 or later
-    Copyright: Jorge González <jorgegonz@svn.gnome.org>, 2009.
-
-    help/es/es.po: GPL version 2 or later
-    Copyright: Daniel Mustieles <daniel.mustieles@gmail.com>, 2012.
-
-    help/fi/fi.po: GPL version 2 or later
-    Copyright: Kaarina V. Sauna-aho <kaarina.v.sauna-aho@nomovok.com>, 2010.
-
-    help/fr/fr.po: GPL version 2 or later
-    Copyright: Claude Paroz <claude@2xlibre.net>, 2009-2010
-
-    help/gl/gl.po: GPL version 2 or later
-    Copyright: Fran Dieguez <frandieguez@gnome.org>, 2011, 2013.
-
-    help/id/id.po: GPL version 2 or later
-    Copyright: Andika Triwidada <andika@gmail.com>, 2012, 2013.
-
-    help/ko/ko.po: GPL version 2 or later
-    Copyright: Seong-ho Cho <darkcircle.0426@gmail.com>, 2011, 2013.
-
-    help/pa/pa.po: GPL version 2 or later
-    Copyright: A S Alam <aalam@users.sf.net>, 2010.
-
-    help/pt_BR/pt_BR.po: GPL version 2 or later
-    Copyright: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
-
-    help/ro/ro.po: GPL version 2 or later
-    Copyright: cosminx2003 <cosminx2003@yahoo.com>, 2010.
-    Copyright: Daniel Șerbănescu <cyber19rider@gmail.com>, 2011.
-
-    help/ro/ro.po:Copyright: GPL version 2 or later
-    Copyright: Daniel Șerbănescu <daniel@serbanescu.dk>, 2012.
-
-    help/ru/ru.po:Copyright: GPL version 2 or later
-    Copyright: Leonid Kanter <leon@asplinux.ru>, 2010.
-
-    help/ru/ru.po:Copyright: GPL version 2 or later
-    Copyright: Yuri Kozlov <yuray@komyakino.ru>, 2011.
-
-    help/ru/ru.po:Copyright: GPL version 2 or later
-    Copyright: Stas Solovey <whats_up@tut.by>, 2013.
-
-    help/te/te.po:Copyright: GPL version 2 or later
-    Copyright (C) 2011 e-telugu organisation
-
-    help/te/te.po:Copyright: GPL version 2 or later
-    Copyright: Praveen Illa <mail2ipn@gmail.com>, 2011.
-
-    help/th/th.po:Copyright: GPL version 2 or later
-    Copyright (C) 2009 Free Software Foundation, Inc.
-
-    help/th/th.po:Copyright: GPL version 2 or later
-    Copyright: Akom C. <knight2000@gmail.com>, 2009.
-
-    help/zh_CN/zh_CN.po:Copyright: GPL version 2 or later
-    Copyright: Zhang Miao <mymzhang@gmail.com>, 2009.
-
-    help/zh_*K/zh_HK.po:Copyright: GPL version 2 or later
-    Copyright: Cheng-Chia Tseng <pswo10680@gmail.com>, 2010.
-
-    help/zh_TW/zh_TW.po:Copyright: GPL version 2 or later
-    Copyright: Cheng-Chia Tseng <pswo10680@gmail.com>, 2010.
-
-On Debian GNU/Linux systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
-
-On Debian GNU/Linux systems, the complete text of the GNU Lesser General
-Public License can be found in `/usr/share/common-licenses/LGPL'.
+License: LGPL-2.1+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-2.1".
